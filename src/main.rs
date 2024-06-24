@@ -6,7 +6,7 @@ use std::net::SocketAddr;
 // Handler for the `/hello/:name` route
 async fn hello(name: String) -> String {
     println!("Received request for {}", name);
-    format!("Hello, {}!", name)
+    format!("Hello, {}!!", name)
 }
 
 // Handler for the `/greet` route with an optional query parameter
